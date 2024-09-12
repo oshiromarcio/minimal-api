@@ -7,7 +7,7 @@ namespace minimal_api.Domain.DTOs
 {
     public class LoginDTO
     {
-            public string? Email { get; set; } = default;
-            public string? Senha { get; set; } = default;
+            public required string Email { get; set; }
+            public required string Senha { get; set; }
     }
 }
