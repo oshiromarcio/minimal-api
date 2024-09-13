@@ -14,7 +14,7 @@ namespace minimal_api.Domain.Interfaces
 
         Veiculo Incluir(Veiculo veiculo);
 
-        Veiculo Atualizar(Veiculo veiculo);
+        void Atualizar(Veiculo veiculo);
 
         void Apagar(Veiculo veiculo);
     }

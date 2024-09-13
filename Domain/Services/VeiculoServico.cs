@@ -26,11 +26,11 @@ namespace minimal_api.Domain.Services
             return;
         }
 
-        public Veiculo Atualizar(Veiculo veiculo)
+        public void Atualizar(Veiculo veiculo)
         {
             _context.Veiculos.Update(veiculo);
             _context.SaveChanges();
-            return veiculo;
+            return;
         }
 
         public Veiculo? BuscaPorId(int id)
