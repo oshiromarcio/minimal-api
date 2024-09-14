@@ -12,9 +12,9 @@ namespace minimal_api.Domain.Services
 {
     public class AdministradorServico : IAdministradorServico
     {
-        private readonly DbContexto _context;
+        private readonly MyDbContext _context;
 
-        public AdministradorServico(DbContexto context)
+        public AdministradorServico(MyDbContext context)
         {
             _context = context;
         }

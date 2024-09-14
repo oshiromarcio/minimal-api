@@ -12,9 +12,9 @@ namespace minimal_api.Domain.Services
 {
     public class VeiculoServico : IVeiculoServico
     {
-        private readonly DbContexto _context;
+        private readonly MyDbContext _context;
 
-        public VeiculoServico(DbContexto context)
+        public VeiculoServico(MyDbContext context)
         {
             _context = context;
         }

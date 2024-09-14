@@ -9,7 +9,7 @@ using minimal_api.Infrastructure.Db;
 
 namespace minimal_api.Migrations
 {
-    [DbContext(typeof(DbContexto))]
+    [DbContext(typeof(MyDbContext))]
     partial class DbContextoModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)

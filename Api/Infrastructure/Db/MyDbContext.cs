@@ -7,11 +7,11 @@ using minimal_api.Domain.Entities;
 
 namespace minimal_api.Infrastructure.Db
 {
-    public class DbContexto : DbContext
+    public class MyDbContext : DbContext
     {
         private readonly IConfiguration _configuracaoAppSettings;
 
-        public DbContexto(IConfiguration configuracaoAppSettings)
+        public MyDbContext(IConfiguration configuracaoAppSettings)
         {
             this._configuracaoAppSettings = configuracaoAppSettings;
         }

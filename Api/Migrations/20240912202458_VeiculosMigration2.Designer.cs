@@ -10,7 +10,7 @@ using minimal_api.Infrastructure.Db;
 
 namespace minimal_api.Migrations
 {
-    [DbContext(typeof(DbContexto))]
+    [DbContext(typeof(MyDbContext))]
     [Migration("20240912202458_VeiculosMigration2")]
     partial class VeiculosMigration2
     {
